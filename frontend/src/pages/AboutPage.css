@@ -1,0 +1,127 @@
+/* src/pages/AboutPage.css */
+.about-page {
+  padding-bottom: 4rem;
+  background-color: #f9fafb;
+}
+
+.about-header {
+  background-color: #115e59;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.about-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.mission-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+.mission-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.mission-text h2 {
+  color: #1f2937;
+  font-size: 1.4rem;
+}
+
+.mission-text h3 {
+  color: #115e59;
+  margin-top: 1.5rem;
+}
+
+.feature-badges {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: #115e59;
+  flex-wrap: wrap;
+}
+
+.mission-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.mission-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.pricing-section h2 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.promo-box {
+  background-color: #f0fdfa;
+  border: 2px solid #22c55e;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.promo-box h3 {
+  color: #115e59;
+  margin-top: 0;
+}
+
+.promo-highlight {
+  color: #22c55e;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.promo-disclaimer {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.standard-pricing {
+  text-align: center;
+}
+
+.pricing-tiers {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.tier {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  min-width: 250px;
+}
+
+.tier h4 {
+  margin: 0 0 0.5rem 0;
+  color: #1f2937;
+}

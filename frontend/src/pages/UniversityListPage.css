@@ -1,0 +1,127 @@
+/* src/pages/UniversityListPage.css */
+.uni-page {
+  background-color: #f9fafb;
+  min-height: calc(100vh - 160px);
+  padding-bottom: 4rem;
+}
+
+.uni-header {
+  background-color: #115e59;
+  color: white;
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+
+.uni-header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.2rem;
+}
+
+.uni-header p {
+  color: #ccfbf1;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.uni-search-box max-width {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.uni-search-box input {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.85rem 1.25rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.uni-container {
+  max-width: 1200px;
+  margin: 3rem auto 0;
+  padding: 0 1.5rem;
+}
+
+.uni-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+}
+
+.uni-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.uni-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.uni-card-image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.uni-badge {
+  background-color: rgba(17, 94, 89, 0.9);
+  color: white;
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.uni-card-content {
+  padding: 1.5rem;
+}
+
+.uni-card-content h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1f2937;
+  font-size: 1.2rem;
+}
+
+.uni-city {
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+
+.browse-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #f0fdfa;
+  color: #115e59;
+  border: 1px solid #115e59;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.browse-btn:hover {
+  background-color: #115e59;
+  color: white;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #6b7280;
+  font-size: 1.1rem;
+  padding: 3rem;
+}

@@ -1,0 +1,99 @@
+/* src/components/Footer.css */
+
+.footer {
+  background-color: #111827; /* Dark Gray / Almost Black */
+  color: #d1d5db; /* Light Gray Text */
+  padding-top: 4rem;
+  margin-top: 4rem;
+  border-top: 4px solid #115e59; /* Brand Teal Accent */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Brand Section */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-logo-icon {
+  width: 28px;
+  height: 28px;
+  color: #22c55e; /* Brand Green Accent */
+}
+
+.footer-logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 300px;
+  color: #9ca3af;
+}
+
+/* Links Sections */
+.footer-heading {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #9ca3af;
+  font-size: 0.95rem;
+  transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #22c55e; /* Green hover effect */
+  padding-left: 4px; /* Small nudge effect on hover */
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  border-top: 1px solid #374151; /* Dark Gray Border */
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  background-color: #0f172a;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr; /* 2 columns on tablets */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+    gap: 2.5rem;
+  }
+}
